@@ -11,3 +11,9 @@ console.log("Sentença de código")
         console.log('Merci, beaucoup.')
     }
 }
+
+/*
+    Esse é um bloco de comentários
+    This is a comment block
+    Dies ist ein Kommentarblock
+*/
