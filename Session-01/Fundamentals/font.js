@@ -6,6 +6,8 @@
 
 console.log("Sentença de código")
 
+console.log("============")
+
 {
     {
         console.log("Hallo, Welt!")
@@ -13,6 +15,8 @@ console.log("Sentença de código")
         console.log('Merci, beaucoup.')
     }
 }
+
+console.log("============")
 
 /*
     Esse é um bloco de comentários
@@ -30,3 +34,17 @@ console.log("Sentença de código")
 var example_var = 3 // Pode ser redeclarada dentro de um mesmo escopo
 let example_let = 3 // Não pode ser redeclarada dentro de um mesmo escopo
 const example_const = 4 // Não pode ter sua atribuição alterada -> constante (como o nome já diz...)
+
+/* Tipagem fraca, dinâmica
+    Trade-offs:
+        pros: flexível
+        cons: dificulta a detecção de determinados tipos de erros 
+*/
+
+let ding = 'uhuu'
+console.log(ding)
+console.log(typeof(ding))
+console.log("============")
+ding = 8
+console.log(ding)
+console.log(typeof(ding))
