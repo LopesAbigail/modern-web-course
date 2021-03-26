@@ -22,3 +22,5 @@ const prod3 = {
 
 console.log(prod2)
 console.log(prod3)
+
+// json != object
