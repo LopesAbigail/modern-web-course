@@ -27,7 +27,8 @@ console.log(!!undefined)
 console.log(!!(isAtivo = false))
 
 console.log('pra finalizar...')
-console.log(!!('' || null || 0 || ' '))
+console.log(!!('' || null || 0 || ' ')) // podemos usar uma expressao logica
 
 let nome = 'Lucas'
-console.log(nome || 'Desconhecido')
+    // Determinando valor padrão de string
+console.log(nome || 'Desconhecido') // se nome estiver vazio, retornará 'Desconhecido'
